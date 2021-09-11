@@ -22,32 +22,32 @@ const app = {
         {
             name: 'Jar of hearts',
             singer: 'Christina Perri',
-            path: './music/Jar-Of-Hearts-Christina-Perri-Christina-Perri.mp3'
+            path: './songs/Jar-Of-Hearts-Christina-Perri-Christina-Perri.mp3'
         },
         {
             name: 'Có lẽ em',
             singer: 'Bích Phương',
-            path: './music/Co-Le-Em-Bich-Phuong.mp3'
+            path: './songs/Co-Le-Em-Bich-Phuong.mp3'
         },
         {
             name: 'Dễ thay đổi',
             singer: 'Vương Tĩnh Văn',
-            path: './music/De-Thay-Doi-Vuong-Tinh-Van-Khong-Map.mp3'
+            path: './songs/De-Thay-Doi-Vuong-Tinh-Van-Khong-Map.mp3'
         },
         {
             name: 'Say you do',
             singer: 'Tiên Tiên',
-            path: './music/Say-You-Do-Tien-Tien.mp3'
+            path: './songs/Say-You-Do-Tien-Tien.mp3'
         },
         {
             name: 'Vẫn',
             singer: 'Bích Phương',
-            path: './music/Van-Bich-Phuong.mp3'
+            path: './songs/Van-Bich-Phuong.mp3'
         },
         {
             name: 'Vây giữ',
             singer: 'Vương Tĩnh Văn',
-            path: './music/Vay-Giu-Vuong-Tinh-Van-Khong-Map.mp3'
+            path: './songs/Vay-Giu-Vuong-Tinh-Van-Khong-Map.mp3'
         }
     ],
     
