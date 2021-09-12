@@ -170,10 +170,7 @@ header h4{
 }
 ::-webkit-scrollbar-track {
     background-color: #fff;
-    /* box-shadow: inset 0 0 5px #fff;  */
     border-radius: 10px;
-    /* opacity: 1; */
-    
 }
    
 ::-webkit-scrollbar-thumb { 
@@ -183,11 +180,6 @@ header h4{
 }
 
 @media screen and (min-width: 576px) and (max-width:767px)  {
-    /* .dashboard.col-md-5::after{
-        content: "";
-        background-color: black;
-        height: 400px;
-    } */
     .dashboard{
         position: relative;
         background-color: black;
@@ -249,10 +241,6 @@ header h4{
 @media screen and (min-width: 420px) and (max-width: 575px) {
     body{
         width: 100%;
-        overflow: hidden;
-    }
-    .container{
-        /* padding: 0; */
     }
     .dashboard{
         position: relative;
