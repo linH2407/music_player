@@ -220,7 +220,7 @@ header h4{
         right: 2px;
     }
     .playlist{
-        margin-top: 32px;
+        margin-top: 64px;
         
     }
     .song {
@@ -246,8 +246,66 @@ header h4{
         padding: 4 4px;
     }
 }
+@media screen and (min-width: 420px) and (max-width: 575px) {
+    body{
+        width: 100%;
+        overflow: hidden;
+    }
+    .container{
+        /* padding: 0; */
+    }
+    .dashboard{
+        position: relative;
+        background-color: black;
+        width: 100%;
+        /* margin: 32px 0 0 0; */
+    }
+    header{
+        position: absolute;
+        right: 16px;
+        top: 32px;
+        width: 60%;
+        text-align: center;
 
-@media screen and (max-width: 575px) {
+    }
+    header h4{
+        color: white;
+    }
+    .cd{
+        position: absolute;
+        left: 0px;
+        top: 16px;
+        padding-left: 16px;
+        width: 40%;
+    }
+    .control{
+        /* padding-top: 224px; */
+        position: absolute;
+        
+        bottom: -80px;
+        left: 0;
+        width: 100%;
+        /* margin-bottom: 96px; */
+    }
+    .progress-container{
+        position: absolute;
+        bottom: -96px;
+        /* margin-bottom: 144px; */
+        left: 19px;
+        width: 90%;
+    }
+    .playlist{
+        margin-top: 106px;
+        border-radius: 0;
+    }
+    ::-webkit-scrollbar-thumb { 
+        background: rgba(236, 31, 85, 0.8); 
+        border-radius: 0px;
+        height: 5px;
+    }
+}
+
+@media screen and (max-width: 419px) {
     body{
         width: 100%;
         overflow: hidden;
@@ -288,8 +346,8 @@ header h4{
     }
     .progress-container{
         position: absolute;
-        bottom: -24px;
-        
+        bottom: -164px;
+        margin-bottom: 144px;
         left: 19px;
         width: 90%;
     }
@@ -304,3 +362,12 @@ header h4{
     }
 }  
 
+@media screen and (max-width: 320px) {
+    header{
+        top: 16px;
+    }
+    .progress-container{
+        bottom: -164px;
+        margin-bottom: 144px;
+    }
+}
