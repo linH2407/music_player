@@ -13,9 +13,6 @@ body {
     margin-top: 10%;
     justify-content: center;
 }
-/* .container{
-    margin-top: px;
-} */
 .dashboard.col-md-5{
     height: 200px;
 }
@@ -254,14 +251,19 @@ header h4{
     body{
         width: 100%;
     }
+    .container{
+        /* padding: 0; */
+    }
     .dashboard{
         position: relative;
         background-color: black;
+        width: 100%;
+        /* margin: 32px 0 0 0; */
     }
     header{
         position: absolute;
         right: 16px;
-        top: 16px;
+        top: 42px;
         width: 50%;
         text-align: center;
     }
@@ -271,21 +273,24 @@ header h4{
     .cd{
         position: absolute;
         left: 0px;
-        bottom: 0;
+        top: 16px;
         padding-left: 16px;
+        width: 40%;
     }
     .control{
+        /* padding-top: 224px; */
         position: absolute;
-        bottom: 8px;
-        right: 16px;
-        width: 50%;
+        bottom: -16px;
+        left: 0;
+        width: 100%;
         
     }
     .progress-container{
         position: absolute;
-        bottom: 0;
-        width: 50%;
-        right: 16px;
+        bottom: -24px;
+        
+        left: 19px;
+        width: 90%;
     }
     .playlist{
         margin-top: 32px;
