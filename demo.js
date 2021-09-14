@@ -55,7 +55,7 @@ const app = {
         const htmls = this.songs.map((song, index) => {
             return `
                 <div class="song ${index === this.currentIndex ? 'active' : ''}" data-index = "${index}">
-                    <div class="thumb" style="background-image: url('https://scontent-xsp1-2.xx.fbcdn.net/v/t39.30808-6/224930175_2962450864015047_873747107842470231_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=a5xc43BWW0sAX94Xy4-&_nc_ht=scontent-xsp1-2.xx&oh=1fb9cf60e74f5d9f7d8f4c42345815c1&oe=613FD539')">
+                    <div class="thumb" style="background-image: url('./img/linh.jpg')">
                     </div>
                     <div class="body">
                         <h3 class="title">${song.name}</h3>
